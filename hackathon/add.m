@@ -67,7 +67,7 @@
     
     
     
-    UIAlertAction *aler_n2 = [UIAlertAction actionWithTitle:@"طبيبة"
+    UIAlertAction *aler_n2 = [UIAlertAction actionWithTitle:@"ssssss"
                                                       style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
                                                           NSLog(@"You pressed button _n1");
                                                           _type.text=@"طبيبة";
