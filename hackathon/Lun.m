@@ -1,5 +1,4 @@
 
-
 #import "Lun.h"
 #import <CoreLocation/CoreLocation.h>
 
@@ -39,11 +38,6 @@
     
 
     
-//
-//    [self performSegueWithIdentifier:@"go" sender:self];
-//
-//    [self.navigationController popViewControllerAnimated:YES];
-
 
 }
 
@@ -126,25 +120,6 @@
     
     
     
-    /*
-    NSString* xurl=@"http://ahjezapp.com/ahjz/app/ios/show_category/self_category_momyz.php?";
-    NSString* s1=@"lat=";
-    NSString* p1=_mylat.text;
-    NSString* s2=@"&lon=";
-    NSString* p2=_mylon.text;
-    
-    NSString*myurl= [NSString stringWithFormat:@"%@%@%@%@%@",xurl,s1,p1,s2,p2];
-    
-    _search_url.text=myurl;
-    
-    
-    // save _search_url
-    NSString *S_f11u =_search_url.text;
-    NSUserDefaults *D_f11u =[NSUserDefaults standardUserDefaults];
-    [D_f11u setObject :S_f11u forKey:@"search_url"];
-    [D_f11u synchronize];
-    
-    */
     
     
     NSString* myurl=@"http://ff8aaf.com/myapp/hackathon/show_service.php?";

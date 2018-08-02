@@ -6,6 +6,8 @@
 //  Copyright © 2018 FAHD ALDOBIAN. All rights reserved.
 //
 
+
+
 #import "add.h"
 
 @interface add ()
@@ -48,7 +50,7 @@
     UIAlertAction *aler_n0 = [UIAlertAction actionWithTitle:@"طبيب"
                                                       style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
                                                           NSLog(@"You pressed button _n1");
-                                                          _type.text=@"طبيب";
+                                                          _type.text=@"متطوع طبيب";
                                        
                                                       }];
     
@@ -57,20 +59,30 @@
     
     
     
-    UIAlertAction *aler_n1 = [UIAlertAction actionWithTitle:@"اسعافات اولية"
+    UIAlertAction *aler_n1 = [UIAlertAction actionWithTitle:@"اسعافات اولية متطوع "
                                                       style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
                                                           NSLog(@"You pressed button _n1");
-                                                          _type.text=@"اسعافات اولية";
+                                                          _type.text=@" اسعافات اولية متطوع ";
                                                           
                                                       }];
     
     
     
     
-    UIAlertAction *aler_n2 = [UIAlertAction actionWithTitle:@"ssssss"
+    UIAlertAction *aler_n2 = [UIAlertAction actionWithTitle:@"طبيبة متطوعة"
                                                       style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
                                                           NSLog(@"You pressed button _n1");
-                                                          _type.text=@"طبيبة";
+                                                          _type.text=@"طبيبة متطوعة";
+                                                          
+                                                      }];
+    
+    
+    
+    
+    UIAlertAction *aler_n3 = [UIAlertAction actionWithTitle:@" سيارة اسعاف"
+                                                      style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
+                                                          NSLog(@"You pressed button _n1");
+                                                          _type.text=@" سيارة اسعاف";
                                                           
                                                       }];
     
@@ -83,7 +95,8 @@
     [alert addAction:aler_n0];
     [alert addAction:aler_n1];
     [alert addAction:aler_n2];
-    //  [alert addAction:aler_n4];
+    [alert addAction:aler_n3];
+
     
     alert.view.tintColor = [UIColor blackColor];
     
@@ -134,7 +147,6 @@
                 NSString *p7=_type.text;
                 NSString *p8=@"&active=";
                 NSString *p9=@"0";
-        
         NSString *p10=@"&lat=";
         NSString *p11=_xlat.text;
         NSString *p12=@"&lon=";
@@ -157,7 +169,6 @@
                 
                 NSString *strURL =[NSString stringWithFormat:@"%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@",url,p0,p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13];
                 
-        
         
                 
                 //   NSData *dataURL = [NSData dataWithContentsOfURL:[NSURL URLWithString:strURL]];  // english
@@ -208,6 +219,14 @@
 }
 
 
+
+
+
+
+
+- (IBAction)btn_back:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 
 

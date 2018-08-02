@@ -1,6 +1,5 @@
 
 //
-//  Created by mac on 6/21/1438 AH.
 //  Copyright © 1438 فهد الدبيان. All rights reserved.
 //
 

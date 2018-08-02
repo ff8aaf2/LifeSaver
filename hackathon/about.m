@@ -1,6 +1,5 @@
 
 //
-//  Created by mac on 6/21/1438 AH.
 //  Copyright © 1438 فهد الدبيان. All rights reserved.
 //
 
@@ -11,6 +10,7 @@
 @interface about ()
  
 @end
+
 
 @implementation about
 
@@ -34,20 +34,8 @@
     
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 
 
@@ -59,7 +47,7 @@
     
     
     // Email Subject
-    NSString *emailTitle = @" تطبيق   بورصه";
+    NSString *emailTitle = @" تطبيق   ";
     // Email Content
     NSString *messageBody = @"  اكتب الرسالة هنا";
     // To address
@@ -169,7 +157,7 @@
 -(IBAction)CALL1:(id)sender{
     
     
-    NSString *phone_number  =@"0592243987";
+    NSString *phone_number  =@"05xxxxx";
     
     NSString *phoneStrh = [[NSString alloc] initWithFormat:@"telprompt://%@",phone_number];
     NSURL *phoneURL = [[NSURL alloc] initWithString:phoneStrh];
@@ -241,8 +229,8 @@ localNotification.timeZone = [NSTimeZone defaultTimeZone];
         NSString*k1=_name_bank.text;
         NSString*k2=_name_person_bank.text;
         NSString*k3=_price_bank.text;
-        NSString*k4=@" ريال ";
-        NSString*k5=@" رقم البائع: ";
+        NSString*k4=@"  ";
+        NSString*k5=@"  : ";
         NSString*k6=_myphone.text;
         NSString *message =[NSString stringWithFormat:@"%@%@%@%@%@%@%@%@%@",k1,kx,k2,kx,k3,k4,kx,k5,k6];
         
@@ -251,7 +239,7 @@ localNotification.timeZone = [NSTimeZone defaultTimeZone];
         NSString*myurl=@"http://ayjabiun.com/app/email.php?";
         
         NSString*s1=@"subject=";
-        NSString*p1=@" حوالة بنكية ";
+        NSString*p1=@"   ";
         
         NSString*s2=@"&body=";
         NSString*p2=message;

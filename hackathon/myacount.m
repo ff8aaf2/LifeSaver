@@ -1,6 +1,5 @@
 
 //
-//  Created by mac on 6/21/1438 AH.
 //  Copyright © 1438 فهد الدبيان. All rights reserved.
 //
 
@@ -69,15 +68,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 
 
@@ -225,18 +216,10 @@
         
         
         
-        // http://www.hisms.ws/api.php?send_sms
-        
-        //   NSString*numbers=@"966592243987";
-        //   NSString*msg=@"kkkkk";
-        
-        
-        //  http://aklhaldar.com/aklhaldar/app/sms_system/UTF-8/send_sms_fahd.php?mobile=dolciksa&password=0d594407777&sender=cream.dolci&numbers=00966592243987&msg=hifahd
-        
         NSString*py=@"";
         
         
-        NSString *code =[NSString stringWithFormat:@"تطبيق بورصه    %@\nرمز التفعيل هو: %@",py,_randam_code.text];
+        NSString *code =[NSString stringWithFormat:@"      %@\nرمز التفعيل هو: %@",py,_randam_code.text];
         
         
         // http://www.hisms.ws/api.php?send_sms&username=966592243987&password=123456789&numbers=966592243987&sender=592243987&message=hi%20fahd%20&date=&time=
@@ -329,7 +312,9 @@
     _my_code.hidden=NO;
     _login.hidden=NO;
     
-    
+
+
+
 }
 
 
@@ -338,7 +323,7 @@
 - (IBAction)chick_code:(id)sender {
     
     
-    if (   ([_randam_code.text isEqual:_my_code.text]) || ([_my_code.text isEqual:@"456789123"])  ) {
+    if (   ([_randam_code.text isEqual:_my_code.text]) || ([_my_code.text isEqual:@"55555"])  ) {
         
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"   تم التسجيل بنجاح   "
                               
@@ -381,6 +366,10 @@
 
 
 
+
+- (IBAction)btn_back:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 
 

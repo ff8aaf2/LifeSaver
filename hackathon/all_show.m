@@ -148,9 +148,9 @@
     float y = ([thisCar.distance floatValue]);
     [cell.item_Distance setText:[NSString stringWithFormat:@"%0.1f%@", y ,@" km "]];
 
-    if (y<=2) {
-     //   NSString*ra=@" يقع داخل ";
-      //  cell.item_Distance.text= [NSString stringWithFormat:@"%@%@",@"",ra];
+    if (y<=1) {
+        NSString*ra=@" على بعد امتار منك ";
+        cell.item_Distance.text= [NSString stringWithFormat:@"%@%@",@"",ra];
     }
     
     
