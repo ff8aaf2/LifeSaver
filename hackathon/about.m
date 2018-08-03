@@ -27,7 +27,7 @@
     
     
     [_scroll_all setScrollEnabled:YES];    //////للتمرير
-    [_scroll_all setContentSize:CGSizeMake(1,2299)];  //////للتمرير
+    [_scroll_all setContentSize:CGSizeMake(1,2199)];  //////للتمرير
     
     
     
