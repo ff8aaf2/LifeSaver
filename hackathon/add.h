@@ -29,5 +29,9 @@
 
 
 
+@property (weak, nonatomic) IBOutlet UILabel *xxxx;
+
+
+
 
 @end
