@@ -3448,6 +3448,9 @@
                                                         <state key="normal" backgroundImage="blood.png">
                                                             <color key="titleColor" red="0.29527181390000001" green="0.64765936140000002" blue="0.61569267510000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="btn_v1:" destination="kVH-j9-Ko1" eventType="touchUpInside" id="VVL-UF-e62"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xBd-Ls-41e">
                                                         <rect key="frame" x="122" y="337" width="132" height="132"/>
@@ -3456,6 +3459,9 @@
                                                         <state key="normal" backgroundImage="snak.png">
                                                             <color key="titleColor" red="0.29527181390000001" green="0.64765936140000002" blue="0.61569267510000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="btn_v3:" destination="kVH-j9-Ko1" eventType="touchUpInside" id="PZ2-mw-WCQ"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dOx-JM-aCT">
                                                         <rect key="frame" x="122" y="490" width="132" height="132"/>

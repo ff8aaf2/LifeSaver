@@ -125,7 +125,7 @@
 
 
 - (IBAction)btn_v1:(id)sender {
-    NSString *sw  =@"https://maps.google.com/?q=";
+    NSString *sw  =@"http://ff8aaf.com/myapp/hackathon/video/blood.m4v";
     
     NSString *slat  =@"";
     NSString *sc  =@"";
@@ -142,7 +142,7 @@
 
 
 - (IBAction)btn_v3:(id)sender {
-    NSString *sw  =@"https://maps.google.com/?q=";
+    NSString *sw  =@"http://ff8aaf.com/myapp/hackathon/video/snak.m4v";
     
     NSString *slat  =@"";
     NSString *sc  =@"";
