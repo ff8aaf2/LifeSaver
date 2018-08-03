@@ -24,7 +24,7 @@
     // Do any additional setup after loading the view.
     
     
-    _timer = [NSTimer scheduledTimerWithTimeInterval:5.10 target:self selector:@selector(updateTimer) userInfo:nil repeats:NO];
+    _timer = [NSTimer scheduledTimerWithTimeInterval:5.30 target:self selector:@selector(updateTimer) userInfo:nil repeats:NO];
     
     
 }
