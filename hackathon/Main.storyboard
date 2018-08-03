@@ -3445,23 +3445,17 @@
                                                         <rect key="frame" x="122" y="183" width="132" height="132"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="JannaLT-Regular" family="Janna LT" pointSize="20"/>
-                                                        <state key="normal" backgroundImage="pluse.png">
+                                                        <state key="normal" backgroundImage="blood.png">
                                                             <color key="titleColor" red="0.29527181390000001" green="0.64765936140000002" blue="0.61569267510000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
-                                                        <connections>
-                                                            <action selector="btn_v0:" destination="kVH-j9-Ko1" eventType="touchUpInside" id="RNA-vN-2XK"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xBd-Ls-41e">
                                                         <rect key="frame" x="122" y="337" width="132" height="132"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" name="JannaLT-Regular" family="Janna LT" pointSize="20"/>
-                                                        <state key="normal" backgroundImage="pluse.png">
+                                                        <state key="normal" backgroundImage="snak.png">
                                                             <color key="titleColor" red="0.29527181390000001" green="0.64765936140000002" blue="0.61569267510000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
-                                                        <connections>
-                                                            <action selector="btn_v0:" destination="kVH-j9-Ko1" eventType="touchUpInside" id="DC6-4g-qz6"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dOx-JM-aCT">
                                                         <rect key="frame" x="122" y="490" width="132" height="132"/>
@@ -4048,6 +4042,7 @@
         <image name="back11.png" width="222" height="60"/>
         <image name="back111.png" width="137" height="60"/>
         <image name="back123.png" width="345" height="60"/>
+        <image name="blood.png" width="800" height="800"/>
         <image name="btn.png" width="16" height="16"/>
         <image name="btn0.png" width="377" height="60"/>
         <image name="btn1.png" width="183" height="60"/>
@@ -4077,6 +4072,7 @@
         <image name="nrb.png" width="800" height="800"/>
         <image name="person1.png" width="30" height="30"/>
         <image name="pluse.png" width="800" height="800"/>
+        <image name="snak.png" width="800" height="800"/>
         <image name="snap-150x150.png" width="150" height="150"/>
         <image name="th.png" width="800" height="800"/>
         <image name="twitter0.png" width="150" height="150"/>

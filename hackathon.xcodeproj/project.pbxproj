@@ -93,6 +93,8 @@
 		6DC7BEAC2113AED900C0DFDF /* roaat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC7BEAA2113AED800C0DFDF /* roaat.m */; };
 		6DC7BEAE2113B44900C0DFDF /* gs.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DC7BEAD2113B44800C0DFDF /* gs.png */; };
 		6DC7BEB02113B7E400C0DFDF /* pluse.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DC7BEAF2113B7E200C0DFDF /* pluse.png */; };
+		6DC7BEB721140F9200C0DFDF /* blood.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DC7BEB521140F8E00C0DFDF /* blood.png */; };
+		6DC7BEB821140F9200C0DFDF /* snak.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DC7BEB621140F9000C0DFDF /* snak.png */; };
 		9AEDC12EA6A5B29F13624C82 /* libPods-hackathon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1D01A449A1FEAE56689E61 /* libPods-hackathon.a */; };
 /* End PBXBuildFile section */
 
@@ -197,6 +199,8 @@
 		6DC7BEAB2113AED800C0DFDF /* roaat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = roaat.h; sourceTree = "<group>"; };
 		6DC7BEAD2113B44800C0DFDF /* gs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gs.png; sourceTree = "<group>"; };
 		6DC7BEAF2113B7E200C0DFDF /* pluse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pluse.png; sourceTree = "<group>"; };
+		6DC7BEB521140F8E00C0DFDF /* blood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blood.png; sourceTree = "<group>"; };
+		6DC7BEB621140F9000C0DFDF /* snak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snak.png; sourceTree = "<group>"; };
 		AD75D3A5ED0B8DC21396A0EC /* Pods-hackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hackathon/Pods-hackathon.debug.xcconfig"; sourceTree = "<group>"; };
 		C409DE48520D5D2F6DACE734 /* Pods-hackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackathon.release.xcconfig"; path = "Pods/Target Support Files/Pods-hackathon/Pods-hackathon.release.xcconfig"; sourceTree = "<group>"; };
 		DA1D01A449A1FEAE56689E61 /* libPods-hackathon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hackathon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -274,6 +278,8 @@
 		6D5A21D32112F70B00E2CD63 /* صوره */ = {
 			isa = PBXGroup;
 			children = (
+				6DC7BEB521140F8E00C0DFDF /* blood.png */,
+				6DC7BEB621140F9000C0DFDF /* snak.png */,
 				6DC7BEAF2113B7E200C0DFDF /* pluse.png */,
 				6DC7BEAD2113B44800C0DFDF /* gs.png */,
 				6D28DCE62113A0D700BA36BA /* live.png */,
@@ -435,6 +441,7 @@
 				6D5A22222112F75600E2CD63 /* wil.png in Resources */,
 				6D5A22132112F75600E2CD63 /* x.png in Resources */,
 				6D5A22762112F75F00E2CD63 /* share0.png in Resources */,
+				6DC7BEB821140F9200C0DFDF /* snak.png in Resources */,
 				6D28DCE72113A0D800BA36BA /* live.png in Resources */,
 				6D5A22272112F75600E2CD63 /* location.png in Resources */,
 				6D5A221D2112F75600E2CD63 /* btn11.png in Resources */,
@@ -491,6 +498,7 @@
 				6D5A22252112F75600E2CD63 /* search.png in Resources */,
 				6D5A226A2112F75F00E2CD63 /* info0.png in Resources */,
 				6D5A227E2112F75F00E2CD63 /* saved.mp3 in Resources */,
+				6DC7BEB721140F9200C0DFDF /* blood.png in Resources */,
 				6D28DCE121139F8F00BA36BA /* fl2.png in Resources */,
 				6D5A22332112F75600E2CD63 /* bg0.png in Resources */,
 				6D5A228521132D3500E2CD63 /* find.png in Resources */,
